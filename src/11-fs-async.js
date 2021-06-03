@@ -18,7 +18,9 @@ readFile('./content/first.txt','utf-8',(err,result)=>{
             (err,result)=>{
                 if(err) console.log(err);
                 console.log(result);
+                console.log("done with this task")
             }
         )
     } )
 } )
+console.log("starting next task")
