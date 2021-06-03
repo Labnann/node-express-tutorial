@@ -6,5 +6,5 @@ console.log(first,second);
 
 
 writeFileSync('./content/result-sync.txt',
-    `Here is the result: ${first}, ${second}`
+    `Here is the result: ${first}, ${second}`, {flag: 'a'}
 )
