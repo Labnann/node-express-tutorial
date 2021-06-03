@@ -1,12 +1,15 @@
-const john = 'john';
-const peter ='peter';
 
-const sayHi = (name) =>{
-    console.log(`Hello there ${name}`)
-}
+
+
+const names = require('./4-names');
+const sayHi = require('./5-utils');
+console.log(names);
+
+
 
 sayHi('susan');
-sayHi(john);
-sayHi(peter);
+sayHi(names.john);
+sayHi(names.peter);
+
 
 //every file is module in CommonJS
